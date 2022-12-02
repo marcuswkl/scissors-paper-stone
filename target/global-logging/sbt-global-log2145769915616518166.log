@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(0aa60bf4-0b79-468c-bd9d-50cf84904a2b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 14 Scala sources to C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\src\main\scala\ch\makery\address\model\Game3.scala:34:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : javafx.scene.layout.Pane[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m      paneList += pane[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 30, 2022 7:27:27 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

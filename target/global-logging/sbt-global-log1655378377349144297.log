@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(e0640616-ca08-4a08-a596-e73969b1ac13), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\target\scala-2.12\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed Nov 28, 2022 3:41:01 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

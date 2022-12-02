@@ -1,0 +1,39 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 31 products, 12 sources, 5 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/ch/makery/address/view/PlayersController.scala, ${BASE}/src/main/scala/ch/makery/address/model/Game.scala, ${BASE}/src/main/scala/ch/makery/address/view/BoardGUIController.scala, ${BASE}/src/main/scala/ch/makery/address/view/InstructionController.scala, ${BASE}/src/main/scala/ch/makery/address/model/Winner.scala, ${BASE}/src/main/scala/ch/makery/address/view/WelcomeController.scala, ${BASE}/src/main/scala/ch/makery/address/view/PlayAgainController.scala, ${BASE}/src/main/scala/ch/makery/address/model/Game3.scala, ${BASE}/src/main/scala/ch/makery/address/model/Players.scala, ${BASE}/src/main/scala/ch/makery/address/view/RootLayoutController.scala, ${BASE}/src/main/scala/ch/makery/address/MainApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/main/scala/ch/makery/address/model/Player.scala), changed = Set(${BASE}/src/main/scala/ch/makery/address/MainApp.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/src/main/scala/ch/makery/address/model/Player.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/ch/makery/address/MainApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ch.makery.address.MainApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(ch.makery.address.MainApp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/ch/makery/address/MainApp.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ch.makery.address.MainApp[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/kojiaxin/Desktop/DS-Assignment2/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.8.0:compile for Scala 2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 79e317e9 for Scala compiler version 2.12.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.12/2.1.1/paradise_2.12.12-2.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/classes:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/kojiaxin/Desktop/DS-Assignment2/target/scala-2.12/classes:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_2.12/12.0.2-R18/scalafx_2.12-12.0.2-R18.jar:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafxml-core-sfx8_2.12/0.5/scalafxml-core-sfx8_2.12-0.5.jar:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar:/Users/kojiaxin/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafxml-core-macros-sfx8_2.12/0.5/scalafxml-core-macros-sfx8_2.12-0.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 14.847787541 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

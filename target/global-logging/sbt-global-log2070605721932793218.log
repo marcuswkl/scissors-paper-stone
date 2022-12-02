@@ -1,0 +1,7 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\target\scala-2.12\classes ...
+[info] done compiling
+[success] Total time: 31 s, completed Nov 30, 2022 11:42:19 AM
+[debug] > Exec(idea-shell, None, None)

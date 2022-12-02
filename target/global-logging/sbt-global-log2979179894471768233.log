@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\PREDATOR\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\PREDATOR\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 196.7144ms
+[debug]       Load.loadUnit: defsScala took 0.472ms
+[debug] [Loading] Scanning directory C:\Users\PREDATOR\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\PREDATOR\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.3591 ms
+[debug]           Load.resolveProject(global-plugins) took 44.5671ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\PREDATOR\.sbt\1.0\plugins, plugins: List(<none>))) took 88.6043ms
+[debug] [Loading] Done in C:\Users\PREDATOR\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 107.9557ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2262ms
+[debug]     Load.loadUnit(file:/C:/Users/PREDATOR/.sbt/1.0/plugins/, ...) took 312.9494ms
+[debug]   Load.apply: load took 579.7632ms
+[debug]   Load.apply: resolveProjects took 5.7998ms
+[debug]   Load.apply: finalTransforms took 47.8324ms
+[debug]   Load.apply: config.delegates took 5.6534ms
+[debug]   Load.apply: Def.make(settings)... took 423.2379ms
+[debug]   Load.apply: structureIndex took 107.6895ms
+[debug]   Load.apply: mkStreams took 1.7798ms
+[info] loading global plugins from C:\Users\PREDATOR\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2388.9972ms
+[debug]           Load.loadUnit: plugins took 61.6432ms
+[debug]           Load.loadUnit: defsScala took 0.2891ms
+[debug] [Loading] Scanning directory C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\project
+[debug]             Load.loadUnit: mkEval took 13.0684ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.5782 ms
+[info] loading settings for project setupscala-build from idea.sbt ...
+[debug]               Load.resolveProject(setupscala-build) took 2.9772ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id setupscala-build, base: C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\project, plugins: List(<none>))) took 5.0777ms
+[debug] [Loading] Done in C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\project, returning: (setupscala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2344.5707ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.3227ms
+[debug]         Load.loadUnit(file:/C:/Users/PREDATOR/OneDrive%20-%20Sunway%20Education%20Group/Documents/BSc%20(Hons)%20in%20Computer%20Science/Year%203%20Sem%202/NET3204%20Distributed%20System/Assignment/Final%20Assignment/SetUpScala/project/, ...) took 2413.9118ms
+[debug]       Load.apply: load took 2415.7407ms
+[debug]       Load.apply: resolveProjects took 0.1166ms
+[debug]       Load.apply: finalTransforms took 8.4964ms
+[debug]       Load.apply: config.delegates took 0.5166ms
+[debug]       Load.apply: Def.make(settings)... took 87.3729ms
+[debug]       Load.apply: structureIndex took 29.5399ms
+[debug]       Load.apply: mkStreams took 0.0025ms
+[info] loading project definition from C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4467.4787ms
+[debug]     Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala
+[debug]       Load.loadUnit: mkEval took 0.259ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.7284 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 38.2138ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala, plugins: List(<none>))) took 42.7864ms
+[debug] [Loading] Done in C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1789.0107ms
+[debug]     Load.loadUnit: cleanEvalClasses took 14.9864ms
+[debug]   Load.loadUnit(file:/C:/Users/PREDATOR/OneDrive%20-%20Sunway%20Education%20Group/Documents/BSc%20(Hons)%20in%20Computer%20Science/Year%203%20Sem%202/NET3204%20Distributed%20System/Assignment/Final%20Assignment/SetUpScala/, ...) took 6272.0604ms
+[debug] Load.apply: load took 6275.2097ms
+[debug] Load.apply: resolveProjects took 0.1388ms
+[debug] Load.apply: finalTransforms took 24.6155ms
+[debug] Load.apply: config.delegates took 0.2812ms
+[debug] Load.apply: Def.make(settings)... took 62.9892ms
+[debug] Load.apply: structureIndex took 20.9259ms
+[debug] Load.apply: mkStreams took 0.0023ms
+[info] set current project to SetUpScala (in build file:/C:/Users/PREDATOR/OneDrive%20-%20Sunway%20Education%20Group/Documents/BSc%20(Hons)%20in%20Computer%20Science/Year%203%20Sem%202/NET3204%20Distributed%20System/Assignment/Final%20Assignment/SetUpScala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63155 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63155, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to SetUpScala (in build file:/C:/Users/PREDATOR/OneDrive%20-%20Sunway%20Education%20Group/Documents/BSc%20(Hons)%20in%20Computer%20Science/Year%203%20Sem%202/NET3204%20Distributed%20System/Assignment/Final%20Assignment/SetUpScala/)
+[debug] > Exec(idea-shell, None, None)
