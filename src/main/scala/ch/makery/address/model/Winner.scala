@@ -9,10 +9,10 @@ import scalafx.scene.text.{Font, Text}
 class Winner() {
   def printWinner(gridPane : GridPane) {
     val f = new Font("chalkboard", 30)
-    val name1 = new Text("       " + MainApp.player1Name.apply() + " is the Winner!") {
+    val name1 = new Text("             " + MainApp.player1Name.apply() + " is the Winner!") {
       font = f
     }
-    val name2 = new Text("       " + MainApp.player2Name.apply() + " is the Winner!") {
+    val name2 = new Text("             " + MainApp.player2Name.apply() + " is the Winner!") {
       font = f
     }
     name1.setFill(Color.rgb(56, 23, 4))
