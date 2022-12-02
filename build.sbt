@@ -6,7 +6,7 @@ ThisBuild / scalaVersion := "2.12.12"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "SetUpScala"
+    name := "DotsAndBoxes"
   )
 
 // https://mvnrepository.com/artifact/org.scalafx/scalafx
