@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(0177d565-04b8-496b-9404-7f3a3a501434), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to C:\Users\PREDATOR\OneDrive - Sunway Education Group\Documents\BSc (Hons) in Computer Science\Year 3 Sem 2\NET3204 Distributed System\Assignment\Final Assignment\SetUpScala\target\scala-2.12\classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 12 s, completed Nov 28, 2022 4:45:09 PM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-49c420c743fa79bab857. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-49c420c743fa79bab857_lock, error 5[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

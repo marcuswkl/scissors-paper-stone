@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(c5ff7454-9d3d-4007-8ea7-9adcf875d1a7), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/kojiaxin/Downloads/SetUpScala/target/scala-2.12/classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 22 s, completed Dec 2, 2022 10:34:24 AM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

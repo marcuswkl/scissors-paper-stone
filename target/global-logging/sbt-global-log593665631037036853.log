@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(f16afcf8-72cf-4c56-a8e8-d31589ec94bf), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 86 s (01:26), completed Dec 1, 2022 10:01:32 AM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[33mwarn[0m] [0m[0mIn the last 86 seconds, 9.871 (11.6%) were spent in GC. [Heap: 0.91GB free of 0.95GB, max 0.95GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
